@@ -5,7 +5,10 @@ import Footer from '@components/Footer'
 export default function Home() {
   return (
     <div className="container">
-      Welcome to Koteks Life
+      
+      <main>
+        <Header title="Welcome to Koteks Life" />
+      </main>
 
       <Footer />
     </div>
